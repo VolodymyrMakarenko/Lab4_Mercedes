@@ -1,0 +1,402 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Хедер */
+header {
+  width: 100%;
+  height: 125px;
+  background-color: #111111;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 93px 45px 43px;
+}
+
+.nav_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 944px;
+  padding-top: 15px;
+}
+
+nav .logo {
+  width: 243px;
+  height: 64px;
+  display: flex;
+}
+
+nav .logo .logo_Mercedes-Benz {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  padding-left: 8px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+nav .nav_content .header_list {
+  list-style-type: none;
+}
+
+nav .nav_content .header_list .header_item .header_link {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+nav .nav_content .header_list .header_item a {
+  text-decoration: none;
+}
+
+/* Секція сторінка перша */
+.sub_header {
+  background: url(../img/Part_1/Background.jpg) center center/cover no-repeat;
+  width: 100%;
+  height: 727px;
+}
+
+.sub_header_info {
+  padding: 653px 21px 28px 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub_header .sub_header_info .label {
+  font-weight: 600;
+  font-size: 32px;
+  color: #000;
+}
+
+.sub_header .sub_header_info .button_more .more {
+
+  border: 1px solid #000;
+  border-radius: 45px;
+  padding: 10px 20px;
+  width: 186px;
+  height: 46px;
+  background: #c9c9c9;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+
+.sub_header .sub_header_info .button_more .more:hover {
+  border-radius: 45px;
+  height: 46px;
+  padding: 10px 20px;
+  width: 186px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background: #3c3c3c;
+}
+
+.block {
+  width: 100%;
+  height: 29px;
+  background-color: #111111;
+}
+/* секція про модельний ряд*/
+.model_line {
+  height: 720px;
+  width: 100%;
+  padding: 29px 0 50px 0px;
+}
+
+.car_content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.model_label {
+  padding-left: 38px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #000;
+}
+
+.car_content .car_info .car_name {
+  font-weight: 400;
+  font-size: 36px;
+  color: #1b1b1b;
+  text-align: center;
+}
+.car_content .car_info .car_cost {
+  font-weight: 400;
+  font-size: 36px;
+  color: #1b1b1b;
+  text-align: center;
+}
+.arrow_distant {
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  justify-content: end;
+}
+.arrow {
+  width: 50px;
+  height: 50px;
+  padding: 102px 33px 0 0;
+}
+
+/* секція про рекомендіції*/
+
+.rec {
+  padding: 32px 0 5px 37px;
+  height: 920px;
+}
+.car_rec {
+  margin-top: 124px;
+  display: flex;
+  justify-content: space-between;
+}
+.label_rec {
+  font-weight: 400;
+  font-size: 36px;
+  color: #343434;
+}
+.label_descr {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #666;
+}
+.car_prop_spec_1 {
+  background: url(../img/Part_3/car_1.png) center center/cover no-repeat;
+  width: 480px;
+  height: 620px;
+  border-radius: 80px;
+}
+.car_prop_spec_2 {
+  background: url(../img/Part_3/car_2.png) center center/cover no-repeat;
+  width: 480px;
+  height: 620px;
+  border-radius: 80px;
+}
+.car_prop_spec_3 {
+  background: url(../img/Part_3/car_3.png) center center/cover no-repeat;
+  width: 480px;
+  height: 620px;
+  border-radius: 80px;
+}
+.car_rec .car_prop {
+  padding: 451px 20px 77px 18px;
+}
+.car_rec .car_prop .car_btn {
+  position: absolute;
+  padding-left: 280px;
+  margin-top: -33px;
+}
+.car_rec .car_prop .car_btn .mp {
+  border: none;
+  border-radius: 45px;
+  width: 149px;
+  height: 29px;
+  background: #c9c9c9;
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #161616;
+}
+.car_rec .car_prop .car_btn .mp:hover{
+    border-radius: 45px;
+  width: 149px;
+  height: 29px;
+background: #404040;
+
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+}
+
+.car_rec .car_prop .car_prop_descr {
+  font-weight: 400;
+  font-size: 28px;
+  color: #e4e4e4;
+}
+
+/* секція про інше */
+.Other_text {
+  font-weight: 400;
+  font-size: 36px;
+  color: #000;
+}
+
+.Other {
+  height: 1400px;
+  padding: 0 65px 33px 65px;
+}
+.other_first_3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.other_item_1 {
+  background: url(../img/Part_4/Online_warehouse.png) center center/cover
+    no-repeat;
+  width: 647px;
+  height: 617px;
+}
+.other_item_2 {
+  background: url(../img/Part_4/Credit.png) center center/cover no-repeat;
+  width: 711px;
+  height: 296px;
+}
+.other_item_3 {
+  margin-top: 25px;
+  background: url(../img/Part_4/Sale.png) center center/cover no-repeat;
+  width: 711px;
+  height: 296px;
+}
+
+.other_text_1 {
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  padding: 530px 328px 44px 28px;
+}
+.other_text_2 {
+  font-weight: 400;
+  font-size: 40px;
+  color: #171717;
+  padding: 232px 285px 0 110px;
+}
+
+.other_text_3 {
+  font-weight: 400;
+  font-size: 40px;
+  color: #171717;
+  padding: 233px 240px 0 65px;
+}
+
+.other_second_3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 33px;
+}
+.other_item_4 {
+  background: url(../img/Part_4/Search.png) center center/cover no-repeat;
+  width: 711px;
+  height: 296px;
+}
+.other_item_5 {
+  margin-top: 25px;
+  background: url(../img/Part_4/F.png) center center/cover no-repeat;
+  width: 711px;
+  height: 296px;
+}
+.other_item_6 {
+  background: url(../img/Part_4/Carshop.png) center center/cover no-repeat;
+  width: 647px;
+  height: 617px;
+}
+.other_text_4 {
+  padding: 233px 388px 0 64px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #171717;
+}
+.other_text_5 {
+  padding: 233px 233px 0 44px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+}
+.other_text_6 {
+  padding: 544px 95px 0 152px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+}
+/* футер */
+
+footer {
+  height: 450px;
+  width: 100%;
+  background: #111;
+}
+
+.footer_menu {
+  padding: 0px 75px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_info {
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+}
+.footer_content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: -20px;
+}
+
+.footer_content ul li {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.footer_content ul li a {
+  text-decoration: none;
+  color: #bebebe;
+}
+.line {
+  margin: 37px 50px 0 50px;
+  border: 2px solid #fff;
+}
+.all_cookie_info{
+    margin: 14.5px 23px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.box_2{
+    display: flex;
+    justify-content: space-between;
+}
+.facebook{
+    border-radius: 10px;
+    height: 61px;
+    width: 61px;
+    background-color: #c8c8c8;
+}
+.youtube{
+    border-radius: 10px;
+    height: 61px;
+    width: 61px;
+    background-color: #c8c8c8;
+}
+.instagram{
+    border-radius: 10px;
+    height: 61px;
+    width: 61px;
+    background-color: #c8c8c8;
+}
+
+.all_footer ul li {
+    padding-left: 0;
+    margin-right: 80px;
+    font-weight: 400;
+font-size: 24px;
+list-style-type: none;
+
+}
+.all_footer ul li a{
+    text-decoration: none;
+    color: #bebebe;
+}
+.icons{
+    padding-right: 5px;
+}
+.icons img{
+margin-left: 10px;
+}
